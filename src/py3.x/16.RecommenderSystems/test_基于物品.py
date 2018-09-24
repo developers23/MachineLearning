@@ -63,3 +63,6 @@ def Recommendation2(train, user_id, W, K):
             rank[j].weight += pi * wj
             rank[j].reason[i] = pi * wj
     return rank
+
+
+# modify content
